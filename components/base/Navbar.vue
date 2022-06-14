@@ -21,14 +21,14 @@
         </ul>
       </div>
       <div :class="[open ? 'flex' : 'hidden lg:flex']" class="space-x-3">
-        <!-- <base-button  class="px-8 xl:px-10 py-3 mt-2 bg-inherit text-gradient border border-[#0c66ee]" >
+        <base-button  class="px-8 xl:px-10 py-3 mt-2 bg-inherit text-gradient border border-[#0c66ee]" >
 
           <nuxt-link class="navbar-item" to="/login">Login</nuxt-link>
         </base-button>
         <base-button class="px-8 xl:px-10 py-3 mt-2 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] text-white">
 
           <nuxt-link class="navbar-item" to="/register">Sign Up</nuxt-link>
-        </base-button> -->
+        </base-button>
       </div>
     </div>
   </nav>
