@@ -15,7 +15,7 @@
                 <input
                   v-model="username"
                   type="text"
-                  class="input"
+                  class="input rounded-lg"
                   name="username"
                   required
                 />
@@ -27,7 +27,7 @@
                 <input
                   v-model="email"
                   type="email"
-                  class="input"
+                  class="input rounded-lg"
                   name="email"
                   required
                 />
@@ -39,7 +39,7 @@
                 <input
                   v-model="password"
                   type="password"
-                  class="input"
+                  class="input rounded-lg"
                   name="password"
                   required
                 />

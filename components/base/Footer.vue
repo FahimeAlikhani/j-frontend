@@ -1,9 +1,9 @@
 <template>
-  <footer class="max-w-screen-xl px-8 mx-auto">
-    <div class="w-full border-y border-[#DDDDDD]">
+  <footer class="max-w-screen-xl px-8 mx-auto ">
+    <div class="w-full border-y border-[#DDDDDD] " >
       <div class="w-full flex flex-wrap space-y-6">
         <div
-          class="w-full sm:w-1/2 xl:w-fit flex flex-col sm:flex-row sm:px-6 py-6 sm:py-12 sm:space-x-10 sm:border-r border-[#DDDDDD]"
+          class="w-full sm:w-1/2 xl:w-fit flex flex-col sm:flex-row sm:px-6 py-6 sm:py-12 sm:space-x-10 sm:border-r border-[#DDDDDD] invisible md:visible"
         >
           <div class="sm:hidden xl:block mb-6 sm:mb-0">
             <a href="#">
@@ -45,3 +45,4 @@ export default {
   },
 }
 </script>
+

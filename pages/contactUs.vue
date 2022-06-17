@@ -18,62 +18,53 @@
         Bummer, Something went wrong. Did you fill out all of the fields?
       </div>
       <div>
-        <label for="full_name" class="sr-only">Full name*</label>
-        <div class="relative rounded-md shadow-sm">
           <input
             id="full_name"
             v-model="name"
             required
+            type="text"
             name="name"
-            class="form-input block w-full py-3 px-4 placeholder-gray-500 transition ease-in-out duration-150"
+            class="flex space-x-10 py-3 px-3 w-80 rounded-lg"
             placeholder="Full name*"
           />
-        </div>
       </div>
       <div>
-        <label for="email" class="sr-only">Email*</label>
-        <div class="relative rounded-md shadow-sm">
           <input
             id="email"
             v-model="email"
-            name="email"
             required
             type="email"
-            class="form-input block w-full py-3 px-4 placeholder-gray-500 transition ease-in-out duration-150"
+            name="email"
+            class="flex space-x-10 py-3 px-3 w-80 rounded-lg"
             placeholder="Email*"
           />
-        </div>
       </div>
       <div>
-        <label for="phone" class="sr-only">Phone</label>
-        <div class="relative rounded-md shadow-sm">
           <input
             id="phone"
             v-model="phone"
+            type="text"
             name="phone"
-            class="form-input block w-full py-3 px-4 placeholder-gray-500 transition ease-in-out duration-150"
+            class="flex space-x-10 py-3 px-3 w-80 rounded-lg"
             placeholder="Phone"
           />
-        </div>
       </div>
       <div>
-        <label for="message" class="sr-only">Message</label>
-        <div class="relative rounded-md shadow-sm">
           <textarea
             id="message"
             v-model="message"
-            name="message"
             required
+            type="text"
+            name="message"
             rows="4"
-            class="form-input block w-full py-3 px-4 placeholder-gray-500 transition ease-in-out duration-150"
+            class="flex space-x-10 py-3 px-3 w-80 rounded-lg "
             placeholder="Message*"
           ></textarea>
-        </div>
       </div>
       <div class="">
         <button
             type="submit"
-             class="button max-w-full px-8 py-4 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] border border-[#0c66ee] text-white "
+             class="button max-w-full px-8 py-4 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] border border-[#0c66ee] text-white rounded-lg"
           >
             {{ loading ? "Sending Message..." : "Submit" }}
          </button>
