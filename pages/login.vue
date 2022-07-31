@@ -33,7 +33,7 @@
                 />
               </div>
             </div>
-            <div class="control">
+            <div class="control"> 
               <button type="submit" class="button is-dark is-fullwidth">Log In</button>
             </div>
           </form>
